@@ -5,7 +5,7 @@ from math import pow,log2,ceil
 
 def ordering(wantedlist,inital_penalty = 0):
     if wantedlist == []:
-        print("NO enchantment given")
+        print("Cannot enchant: no enchantment given")
         return
     sortedlist, numlist = enchantment_split(wantedlist)
 
@@ -29,7 +29,7 @@ def ordering(wantedlist,inital_penalty = 0):
     xp_list, max_step = enchant_layer(total_step, total_enchantment, inital_penalty)
 
     if penalty > 6:
-        return "Error!Cannot enchant!penalty larger than 6"
+        return "Cannot enchant: final penalty larger than 6"
 
 
     while numlist:
@@ -60,6 +60,8 @@ def ordering(wantedlist,inital_penalty = 0):
 
 
     xp_max = max(xp_list)
+    if xp_max > 39:
+        return "Cannot enchant! max xp larger than 39
 
 
     #penalty of merged books
