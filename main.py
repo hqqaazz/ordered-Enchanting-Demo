@@ -24,5 +24,8 @@ while text != "Q":
 
 print("Start ordering...")
 print("*"*20)
-ordering(enchantment_list)
-print("Program ended")
+result = ordering(enchantment_list)
+print("step:",result[0])
+print("max xp:",result[1])
+print("final penalty:",result[2])
+print("total xp level:",result[3])
