@@ -29,7 +29,7 @@ def ordering(wantedlist,inital_penalty = 0):
     xp_list, max_step = enchant_layer(total_step, total_enchantment, inital_penalty)
 
     if penalty > 6:
-        return "Error!Cannot enchant"
+        return "Error!Cannot enchant!penalty larger than 6"
 
 
     while numlist:
@@ -59,6 +59,9 @@ def ordering(wantedlist,inital_penalty = 0):
         numlist.remove(tobe_enchanted)
 
 
+    xp_max = max(xp_list)
+
+
     #penalty of merged books
     xp_penalty_book = 0
     for element in ordering_num:
@@ -73,23 +76,13 @@ def ordering(wantedlist,inital_penalty = 0):
                     sortedlist.remove(k)
                     break
 
-    xp_max = 0
-    for i in xp_list:
-        if i > xp_max:
-            xp_max = i
+
             
     print(ordering)
     print("max:",xp_max)
     print("penalty:",penalty)
     print("total level:",sum(xp_list)+xp_extra_level+xp_penalty_book)
     return ordering
-
-
-
-def list_to_step(wantedlist):
-    n = 1
-    wantedlist = [i[0] for i in wantedlist]
-
 
 
 def enchant_layer(total_step,total_enchantment, inital_penalty):
