@@ -1,4 +1,4 @@
-# orderedEnchantment-Demo
+# orderedEnchanting-Demo
 get the best order for enchanting. 
 This is a demo using Python3.
 
