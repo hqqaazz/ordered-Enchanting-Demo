@@ -36,18 +36,16 @@ def ordering(wantedlist,inital_penalty = 0):
 
 
     while numlist:
-        temp_max_step = []
+
+        temp_xp_list = []
         
-        for x in max_step:
-            if x == 0:
-                temp_max_step.append(1000)
+        for i in range(len(max_step)):
+            if max_step[i] == 0:
+                temp_xp_list.append(1000)
             else:
-                temp_max_step.append(x)
+                temp_xp_list.append(xp_list[i])
 
-        priority_list = [xp_list[i]*temp_max_step[i] for i in range(len(xp_list))]
-
-
-        step = priority_list.index(min(priority_list))
+        step = temp_xp_list.index(min(temp_xp_list))
         existed_num = len(ordering_num[step])
         tobe_enchanted = max(numlist)
 
