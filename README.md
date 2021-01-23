@@ -6,6 +6,12 @@ Hopefully someone could transform this to be a Minecraft mod.
 
 It generates optimal enchanting order in most cases, and nearly optimal enchanting order in the rest.
 
+
+
+
+
+
+
 Example:
 
 (Optimal, in https://github.com/hqqaazz/orderedEnchanting-Demo/wiki/Optimal-enchantment-order)
