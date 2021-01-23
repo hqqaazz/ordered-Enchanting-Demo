@@ -16,17 +16,17 @@ Example:
 
 (Optimal, in https://github.com/hqqaazz/orderedEnchanting-Demo/wiki/Optimal-enchantment-order)
 
-1:Sweeping Edge III
-2:Looting III+Sharpness V/Smite V/Bane of Arthropods V
-3:(Fire Aspect II+Unbreaking III) + (Knockback II+Mending)
+1:Sweeping Edge III<br>
+2:Looting III+Sharpness V/Smite V/Bane of Arthropods V<br>
+3:(Fire Aspect II+Unbreaking III) + (Knockback II+Mending)<br><br>
 
-(3 Prior Work Penalty，Highest exp level:17，Total exp level:52)
-*Total exp require(not exp level):883
+(3 Prior Work Penalty，Highest exp level:17，Total exp level:52)<br>
+*Total exp require(not exp level):883<br><br>
 
-(nearly optimal, by the program)
-1:Sweeping Edge III
-2:Looting III+Fire Aspect II
-3:(Sharpness V/Smite V/Bane of Arthropods V+Unbreaking III) + (Knockback II+Mending)
+(nearly optimal, by the program)<br>
+1:Sweeping Edge III<br>
+2:Looting III+Fire Aspect II<br>
+3:(Sharpness V/Smite V/Bane of Arthropods V+Unbreaking III) + (Knockback II+Mending)<br><br>
 
-(3 Prior Work Penalty，Highest exp level:18，Total exp level:51)
-*Total exp require(not exp level):884
+(3 Prior Work Penalty，Highest exp level:18，Total exp level:51)<br>
+*Total exp require(not exp level):884<br>
